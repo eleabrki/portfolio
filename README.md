@@ -15,7 +15,7 @@ Ce site présente mes **projets**, **compétences** et mon **parcours académiqu
 
 ## 🛠️ À propos du site
 
-Ce portfolio a été développé avec **HTML**, **CSS** et un soupçon de **JavaScript**.  
+Ce portfolio a été développé avec **HTML**, **CSS** et un peu de **JavaScript**.  
 Il est hébergé grâce à **GitHub Pages** pour une navigation simple et rapide.
 
 ---
@@ -32,8 +32,8 @@ Il est hébergé grâce à **GitHub Pages** pour une navigation simple et rapide
 
 ## ⚙️ Technologies utilisées
 
-- HTML5  
-- CSS3  
+- HTML  
+- CSS  
 - JavaScript
 
 ---
@@ -42,7 +42,7 @@ Il est hébergé grâce à **GitHub Pages** pour une navigation simple et rapide
 
 - Email : [elea.baranowski@polytech-lille.net](mailto:elea.baranowski@polytech-lille.net)  
 - GitHub : [eleabrki](https://github.com/eleabrki)  
-- LinkedIn : [linkedin.com/in/eleabaranowski](https://linkedin.com/in/eleabaranowski)
+- LinkedIn : [linkedin.com/in/elea-baranowski](https://linkedin.com/in/elea-baranowski)
 
 ---
 

@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon site</title>
+    <title>Éléa Baranowski</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="bg-dark">
-        <div class="container">
-            <header>
-                <nav class="navbar navbar-expand navbar-dark bg-dark py-3">
-                    <a class="navbar-brand" href="#">Éléa Baranowski</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div id="navbarContent" class="collapse navbar-collapse">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
-                            <li class="nav-item"><a class="nav-link" href="liens.html">Liens</a></li>
-                            <li class="nav-item"><a class="nav-link" href="loisirs.html">Loisirs</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        </div>
-    </div>
-   <div class="container mt-5 text-center">
-        <h1>Bienvenue sur mon portfolio</h1>
-        <h2 class="mt-3">Baranowski Éléa</h2>
-        <img src="images/avatar.jpg" alt="Photo de Éléa" class="img-fluid rounded-circle my-4" style="max-width: 200px;">
-        <p class="lead">Étudiante en informatique et statistiques passionnée par le développement web et l’analyse de données.</p>
-    </div>
 
-    <footer class="bg-dark text-white text-center py-3 mt-5">
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/2.png" alt="Logo Éléa" style="height: 80px; margin-right: 30px;">
+                    <span>Éléa Baranowski</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link navbar-brand d-flex align-items-center" href="cv.html">CV</a></li>
+                        <li class="nav-item"><a class="nav-link navbar-brand d-flex align-items-center" href="liens.html">Liens</a></li>
+                        <li class="nav-item"><a class="nav-link navbar-brand d-flex align-items-center" href="parcours.html">Parcours</a></li>
+                        <li class="nav-item"><a class="nav-link navbar-brand d-flex align-items-center" href="loisirs.html">Loisirs</a></li>
+                        <li class="nav-item"><a class="nav-link navbar-brand d-flex align-items-center" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid mt-5 text-center">
+            <h1>Bienvenue sur mon portfolio !</h1>
+            <h2 class="mt-3">Baranowski Éléa</h2>
+            <img src="images/avatar.jpg" alt="Photo de Éléa" class="img-fluid rounded-circle my-4" style="max-width: 200px;">
+            <p class="lead">Étudiante en informatique et statistiques passionnée par le développement web et l’analyse de données.</p>
+
+            <div class="mt-4">
+                <a href="cv.html" class="btn btn-primary mx-2">Mon CV</a>
+                <a href="parcours.html" class="btn btn-primary mx-2">Mon parcours</a>
+                <a href="contact.html" class="btn btn-primary mx-2">Me contacter</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white text-center py-3">
         &copy; 2025 Éléa Baranowski - Tous droits réservés
     </footer>
 
